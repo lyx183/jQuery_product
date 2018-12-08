@@ -1,0 +1,165 @@
+@import "reset";
+.foot_service{
+    width: 100%;
+    height: 188px;
+    background: #f9f9f9;
+    margin-top: 10px;
+    ul{
+        width: 1190px;
+        height: 188px;
+        margin: 0 auto;
+        li{
+            width: 238px;
+            float: left;
+            background: url(../images/service_line.png) no-repeat right 26%;
+            i{
+                display: block;
+                width: 160px;
+                height: 132px;
+                margin: 28px auto;
+            }
+            .ser1{
+                background: url(../images/service_01.png) no-repeat;
+            }
+            .ser2{
+                background: url(../images/service_02.png) no-repeat;
+            }
+            .ser3{
+                background: url(../images/service_03.png) no-repeat;
+            }
+            .ser4{
+                background: url(../images/service_04.png) no-repeat;
+            }
+            .ser5{
+                background: url(../images/service_05.png) no-repeat;
+            }
+        }
+    }
+}
+.foot_infor{
+    width: 1136px;
+    height: 174px;
+    margin: 40px auto 50px auto;
+    .infor_code{
+        float: left;
+        .ml40{
+            margin-left: 40px;
+        }
+        span{
+            display: block;
+            float: left;
+            width: 146px;
+            color: #6b6b6b;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+            img{
+                width: 146px;
+                height: 146px;
+            }
+        }
+    }
+    .ml60{
+        margin-left: 60px;
+    }
+    ul{
+        width: 92px;
+        height: 174px;
+        float: left;
+        margin-top: 10px;
+        .title{
+            color: #565656;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+        li{
+            a{
+                display: block;
+                height: 25px;
+                line-height: 25px;
+                font-size: 12px;
+                color: #666;
+                &:hover{
+                    color:#fa7117
+                }
+            }
+        }
+    }
+}
+.foot_bt{
+    width: 100%;
+    height: 265px;
+    .links{
+        width: 586px;
+        margin: 0 auto;
+        color: #525151;
+        font-size: 17px;
+        text-align: center;
+        a{
+            margin: 0 24px;
+            color: #666;
+            &:hover{
+                color: #fa7117;
+            }
+        }
+    }
+    .foot_bg_line{
+        width: 100%;
+        height: 3px;
+        background: #ed145b;
+        margin: 12px auto 30px auto;
+    }
+    .authentication{
+        width: 800px;
+        height: 68px;
+        margin: 0 auto;
+        a{
+            margin-left: 35px;
+        }
+    }
+    .copyrights{
+        width: 610px;
+        margin: 15px auto 0 auto;
+        overflow: hidden;
+        .copyrights_lf{
+            width: 136px;
+            height: 50px;
+            float: left;
+            margin-top: 8px;
+        }
+        .copyrights_rt{
+            width: 470px;
+            float: right;
+            strong{
+                font-size: 13px;
+                color: #7d7777;
+                font-weight: bold;
+                height: 18px;
+                line-height: 18px;
+            }
+            p{
+                color: #b5b5b5;
+                font-size: 12px;
+                height: 20px;
+                line-height: 20px;
+                a{
+                    color: #b5b5b5;
+                    position: relative;
+                    padding-left: 25px;
+                    &:hover{
+                        color: #777;
+                    }
+                    i{
+                        width: 20px;
+                        height: 20px;
+                        background: url(../images/gwab-icon.png) no-repeat;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+@import "reset";
+.content{
+    width: 1190px;
+    height: auto;
+    overflow: hidden;   
+    margin: 0 auto;
+    margin-top: 20px;
+    .floor1{
+        height: 532px;
+        color:#f16192;
+        background-color: #fff;
+        background: url(../images/loading.gif) no-repeat center;
+        .title{
+            width: 1190px;
+            height: 50px;
+            overflow: hidden;
+            h3{
+                font-size: 22px;
+                float: left;
+                font-weight: normal;
+                margin-top: 10px;
+                line-height: 30px;
+                span{
+                    width: 5px;
+                    height: 24px;
+                    float: left;
+                    margin-right: 10px;
+                    margin-top: 4px;
+                }
+            }
+            ul{
+                border-bottom: 0;   
+                float: right;
+                overflow: hidden;
+                margin-top: 20px;
+                padding-left: 0;
+                margin-bottom: 0;
+                .active{
+                    a{
+                        color: #9f1423;
+                        font-weight: bolder;
+                    }
+                }
+                li{
+                    float: left;
+                    margin-bottom: 0;
+                    border-right: 1px solid #ccc;
+                    a{
+                        color: #666;
+                        position: relative;
+                        display: block;
+                        padding: 0 15px;
+                    }
+                }
+            }
+        }
+        .tab_content{
+            width: 1190px;
+            margin: 0 auto;
+            overflow: hidden;
+            .tab_content_left{
+                float: left;
+                width: 296px;
+                height: 482px;
+                position: relative;
+                border-right: 1px solid #ededed;
+            }
+            .tab_content_right{
+                float: right;
+                position: absolute;
+                left: 377px;
+                opacity:0;
+                display: none;
+                .fore{
+                    width: 188px;
+                    height: 233px;
+                    float: left;
+                    padding: 6px 17px 0;
+                    border-bottom: 1px solid #ededed;
+                    border-right: 1px solid #ededed;
+                    overflow: hidden;
+                    .sp_img{
+                        width: 160px;
+                        height: 160px;
+                        margin: 0 auto;
+                        margin-bottom: 5px;
+                        text-align: center;
+                        margin-top: 5px;
+                    }
+                    .sp_name{
+                        height: 3em;
+                        margin-bottom: 3px;
+                        overflow: hidden;
+                        a{
+                            color: #666;
+                        }
+                    }
+                    .sp_price{
+                        font-size: 15px;
+                        font-family: Verdana;
+                        color: #e4393c;
+                    }
+                }
+                .hot{
+                    width: 418px;
+                    float: left;
+                    overflow: hidden;
+                    li{
+                        width: 209px;
+                        height: 241px;
+                        float: left;
+                        a{
+                            display: block;
+                            border-right: 1px solid #ededed;
+                            border-bottom: 1px solid #ededed;
+                            overflow: hidden;
+                        }
+                    }
+                } 
+                .h482{
+                    width: 248px;
+                    height: 482px;
+                    float: left;
+                }
+                .w_227{
+                    width: 227px;
+                    li{
+                        width: 227px;
+                    }
+                }
+            }
+            .tab_content_right:nth-child(1){
+                display: block;
+                opacity: 1;
+            }
+        }
+    }
+    .floor0{
+        @extend .floor1
+    }
+    .floor2{
+        @extend .floor1
+    }
+    .floor3{
+        @extend .floor1
+    }
+    .floor4{
+        @extend .floor1
+    }
+    .floor5{
+        @extend .floor1
+    }
+    .floor6{
+        @extend .floor1
+    }
+}

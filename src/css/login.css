@@ -1,0 +1,85 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0; }
+
+body { font: 12px "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB"; background: #fff; color: #444; }
+
+a { text-decoration: none; }
+
+em { font-style: normal; }
+
+li { list-style: none; }
+
+img { border: 0; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.header { width: 100%; border-bottom: 2px solid #2f2f2f; background-color: #fff; }
+
+.header_con { width: 966px; margin: 0 auto; overflow: hidden; }
+
+.header_con a { color: #1a1a1a; cursor: pointer; }
+
+.header_con .logo { margin: 28px 26px 0 0; float: left; }
+
+.header_con .logo_title { float: left; height: 34px; line-height: 34px; font-size: 18px; color: #000; margin-top: 53px; }
+
+.foot_bt { width: 100%; height: 90px; margin-top: 30px; }
+
+.foot_bt .links { width: 586px; margin: 0 auto; color: #525151; font-size: 17px; text-align: center; }
+
+.foot_bt .links a { margin: 0 24px; color: #1a1a1a; }
+
+.foot_bt .copyrights { width: 845px; margin: 15px auto 0 auto; overflow: hidden; }
+
+.foot_bt .copyrights p { color: #b5b5b5; font-size: 12px; height: 20px; line-height: 20px; float: left; text-indent: 2em; }
+
+.foot_bt .copyrights p a { color: #b5b5b5; }
+
+.log { width: 100%; height: 562px; background-color: #fdf8f4; overflow: hidden; }
+
+.log .warp { background: url(../images/login_banner.jpg) no-repeat left; width: 990px; height: 500px; margin: 0 auto; margin-top: 40px; }
+
+.log .warp .ad { float: left; width: 560px; height: 500px; display: block; }
+
+.log .login_form { position: relative; z-index: 4; width: 419px; height: 475px; background: #fff; overflow: visible; float: right; border: 1px solid #e5e5e5; }
+
+.log .login_form .tit { line-height: 58px; height: 58px; border-bottom: 2px solid #ff494a; }
+
+.log .login_form .tit h1 { text-align: center; color: #fd632c; font-size: 21px; font-weight: normal; }
+
+.log .login_form .con { padding: 20px; }
+
+.log .login_form .con .msg_wrap { position: relative; color: #a2a1a1; line-height: 18px; height: 18px; font-size: 14px; }
+
+.log .login_form .con .login_icons { background: url(../images/login_icons.png) no-repeat; background-position: 0 0; width: 24px; height: 18px; display: block; float: left; overflow: hidden; margin-right: 7px; }
+
+.log .login_form .con span { color: #a2a1a1; line-height: 18px; font-size: 14px; }
+
+.log .login_form .con .input_name, .log .login_form .con .input_pass { width: 375px; line-height: 50px; margin: 0; margin-top: 24px; position: relative; }
+
+.log .login_form .con .input_name b, .log .login_form .con .input_pass b { position: absolute; width: 22px; height: 25px; background-position: 0 -32px; top: 13px; left: 29px; display: block; z-index: 3; }
+
+.log .login_form .con .input_name input, .log .login_form .con .input_pass input { width: 287px; padding-left: 88px; height: 50px; line-height: 35px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; color: #555; }
+
+.log .login_form .con .input_pass { margin-top: 30px; }
+
+.log .login_form .con .input_pass b { background-position: 0 -68px; }
+
+.log .login_form .con .safe { margin-top: 30px; width: 375px; height: 30px; line-height: 30px; overflow: hidden; position: relative; float: left; color: #4e4e4e; font-size: 14px; }
+
+.log .login_form .con .safe span { float: right; }
+
+.log .login_form .con .safe a { color: #1a1a1a; }
+
+.log .login_form .con .btn_login { margin-top: 24px; width: 100%; line-height: 46px; font-size: 17px; font-weight: bold; letter-spacing: 4px; background-color: #fa7117; padding: 6px 30px; border: 0; color: #fff; }
+
+.log .login_form .con .login_others { line-height: 22px; height: auto; width: 345px; color: #242323; font-size: 14px; margin: 15px; }
+
+.log .login_form .con .login_others label { color: #c6c6c6; line-height: 30px; }
+
+.log .login_form .con .login_others img { width: 20px; margin-right: 10px; }
+
+.log .login_form .con .login_others b { background-position: -35px 0; width: 15px; height: 20px; float: left; margin-right: 10px; }
+
+.log .login_form .con .login_others .right { float: right; }
+
+.log .login_form .con .login_others .btn-wx-login { margin-left: 40px; }

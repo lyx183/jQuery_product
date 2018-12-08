@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/toolbar.css">
+</head>
+<body>
+    <div class="header"></div>
+    <div class="mycartBox">
+        <div class="mycart">
+            <div class="cart_tit">品牌商品</div>
+            <ul class="cart_list">
+                <li>商品信息</li>
+                <li>单价（元）</li>
+                <li>数量</li>
+                <li>小计（元）</li>
+                <li>操作</li>
+            </ul>
+            <div class="car_storewrap">
+                <ul class="car_list_th">
+                    <input type="checkbox" id="chkAll" class="chkAll">
+                    <label for="chkAll">全选</label>
+                </ul>
+                <ul class="car_list_td">
+                    <li>
+                        <div class="li_chk"><input type="checkbox" class="chk"></div>
+                        <div class="li_pic">
+                            <a class="##"><img src="../images/14776259910764029L.jpg" alt=""></a>
+                        </div>
+                        <div class="li_tit">康农星南美白对虾仁3盒装共600g</div>
+                        <div class="li_price">¥85</div>
+                        <div class="li_num">
+                            <div>
+                                <a class="minus" data-val="-">-</a>
+                                <input class="num" value="1">
+                                <a class="add" data-val="+">+</a>
+                            </div>
+                        </div>
+                        <div class="li_priceSum">255</div>
+                        <div class="li_07">
+                            <a href="##" class="del">删除</a>
+                            <a href="##">移到收藏</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="car_settle">
+                <ul>
+                    <li>
+                        <input type="checkbox" id="chkAll" class="chkAll">
+                    </li>
+                    <li>全选</li>
+                    <li>
+                        <a href="##" class="delAll">删除选中的商品</a>
+                    </li>
+                    <li>
+                        <a href="##">移到收藏</a>
+                    </li>
+                    <li class="allnum">已选<font>0</font>件商品</li>
+                    <li class="allprice">
+                        <h3>总价（不含运费）:
+                            <span data-allgoodsprice="255">¥0</span>
+                        </h3>
+                    </li>
+                </ul>
+                <button type="button" class="pay">去结算&gt;</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <div class="slidebar"></div>
+</body>
+</html>
+<script src="../js/lib/jquery-1.11.3.js"></script>
+<script src="../js/common/header/header.js"></script>
+<script src="../js/common/footer/footer.js"></script>
+<script src="../js/common/footer/slidebar.js"></script>
+<script src="../js/common/header/page.js"></script>
+<script src="../js/common/footer/page.js"></script>
+<script src="../js/js/cart.js"></script>
+<script src="../js/js/toorbar.js"></script>

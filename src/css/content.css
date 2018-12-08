@@ -1,0 +1,61 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0; }
+
+body { font: 12px "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB"; background: #fff; color: #444; }
+
+a { text-decoration: none; }
+
+em { font-style: normal; }
+
+li { list-style: none; }
+
+img { border: 0; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.content { width: 1190px; height: auto; overflow: hidden; margin: 0 auto; margin-top: 20px; }
+
+.content .floor1, .content .floor0, .content .floor2, .content .floor3, .content .floor4, .content .floor5, .content .floor6 { height: 532px; color: #f16192; background-color: #fff; background: url(../images/loading.gif) no-repeat center; }
+
+.content .floor1 .title, .content .floor0 .title, .content .floor2 .title, .content .floor3 .title, .content .floor4 .title, .content .floor5 .title, .content .floor6 .title { width: 1190px; height: 50px; overflow: hidden; }
+
+.content .floor1 .title h3, .content .floor0 .title h3, .content .floor2 .title h3, .content .floor3 .title h3, .content .floor4 .title h3, .content .floor5 .title h3, .content .floor6 .title h3 { font-size: 22px; float: left; font-weight: normal; margin-top: 10px; line-height: 30px; }
+
+.content .floor1 .title h3 span, .content .floor0 .title h3 span, .content .floor2 .title h3 span, .content .floor3 .title h3 span, .content .floor4 .title h3 span, .content .floor5 .title h3 span, .content .floor6 .title h3 span { width: 5px; height: 24px; float: left; margin-right: 10px; margin-top: 4px; }
+
+.content .floor1 .title ul, .content .floor0 .title ul, .content .floor2 .title ul, .content .floor3 .title ul, .content .floor4 .title ul, .content .floor5 .title ul, .content .floor6 .title ul { border-bottom: 0; float: right; overflow: hidden; margin-top: 20px; padding-left: 0; margin-bottom: 0; }
+
+.content .floor1 .title ul .active a, .content .floor0 .title ul .active a, .content .floor2 .title ul .active a, .content .floor3 .title ul .active a, .content .floor4 .title ul .active a, .content .floor5 .title ul .active a, .content .floor6 .title ul .active a { color: #9f1423; font-weight: bolder; }
+
+.content .floor1 .title ul li, .content .floor0 .title ul li, .content .floor2 .title ul li, .content .floor3 .title ul li, .content .floor4 .title ul li, .content .floor5 .title ul li, .content .floor6 .title ul li { float: left; margin-bottom: 0; border-right: 1px solid #ccc; }
+
+.content .floor1 .title ul li a, .content .floor0 .title ul li a, .content .floor2 .title ul li a, .content .floor3 .title ul li a, .content .floor4 .title ul li a, .content .floor5 .title ul li a, .content .floor6 .title ul li a { color: #666; position: relative; display: block; padding: 0 15px; }
+
+.content .floor1 .tab_content, .content .floor0 .tab_content, .content .floor2 .tab_content, .content .floor3 .tab_content, .content .floor4 .tab_content, .content .floor5 .tab_content, .content .floor6 .tab_content { width: 1190px; margin: 0 auto; overflow: hidden; }
+
+.content .floor1 .tab_content .tab_content_left, .content .floor0 .tab_content .tab_content_left, .content .floor2 .tab_content .tab_content_left, .content .floor3 .tab_content .tab_content_left, .content .floor4 .tab_content .tab_content_left, .content .floor5 .tab_content .tab_content_left, .content .floor6 .tab_content .tab_content_left { float: left; width: 296px; height: 482px; position: relative; border-right: 1px solid #ededed; }
+
+.content .floor1 .tab_content .tab_content_right, .content .floor0 .tab_content .tab_content_right, .content .floor2 .tab_content .tab_content_right, .content .floor3 .tab_content .tab_content_right, .content .floor4 .tab_content .tab_content_right, .content .floor5 .tab_content .tab_content_right, .content .floor6 .tab_content .tab_content_right { float: right; position: absolute; left: 377px; opacity: 0; display: none; }
+
+.content .floor1 .tab_content .tab_content_right .fore, .content .floor0 .tab_content .tab_content_right .fore, .content .floor2 .tab_content .tab_content_right .fore, .content .floor3 .tab_content .tab_content_right .fore, .content .floor4 .tab_content .tab_content_right .fore, .content .floor5 .tab_content .tab_content_right .fore, .content .floor6 .tab_content .tab_content_right .fore { width: 188px; height: 233px; float: left; padding: 6px 17px 0; border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; overflow: hidden; }
+
+.content .floor1 .tab_content .tab_content_right .fore .sp_img, .content .floor0 .tab_content .tab_content_right .fore .sp_img, .content .floor2 .tab_content .tab_content_right .fore .sp_img, .content .floor3 .tab_content .tab_content_right .fore .sp_img, .content .floor4 .tab_content .tab_content_right .fore .sp_img, .content .floor5 .tab_content .tab_content_right .fore .sp_img, .content .floor6 .tab_content .tab_content_right .fore .sp_img { width: 160px; height: 160px; margin: 0 auto; margin-bottom: 5px; text-align: center; margin-top: 5px; }
+
+.content .floor1 .tab_content .tab_content_right .fore .sp_name, .content .floor0 .tab_content .tab_content_right .fore .sp_name, .content .floor2 .tab_content .tab_content_right .fore .sp_name, .content .floor3 .tab_content .tab_content_right .fore .sp_name, .content .floor4 .tab_content .tab_content_right .fore .sp_name, .content .floor5 .tab_content .tab_content_right .fore .sp_name, .content .floor6 .tab_content .tab_content_right .fore .sp_name { height: 3em; margin-bottom: 3px; overflow: hidden; }
+
+.content .floor1 .tab_content .tab_content_right .fore .sp_name a, .content .floor0 .tab_content .tab_content_right .fore .sp_name a, .content .floor2 .tab_content .tab_content_right .fore .sp_name a, .content .floor3 .tab_content .tab_content_right .fore .sp_name a, .content .floor4 .tab_content .tab_content_right .fore .sp_name a, .content .floor5 .tab_content .tab_content_right .fore .sp_name a, .content .floor6 .tab_content .tab_content_right .fore .sp_name a { color: #666; }
+
+.content .floor1 .tab_content .tab_content_right .fore .sp_price, .content .floor0 .tab_content .tab_content_right .fore .sp_price, .content .floor2 .tab_content .tab_content_right .fore .sp_price, .content .floor3 .tab_content .tab_content_right .fore .sp_price, .content .floor4 .tab_content .tab_content_right .fore .sp_price, .content .floor5 .tab_content .tab_content_right .fore .sp_price, .content .floor6 .tab_content .tab_content_right .fore .sp_price { font-size: 15px; font-family: Verdana; color: #e4393c; }
+
+.content .floor1 .tab_content .tab_content_right .hot, .content .floor0 .tab_content .tab_content_right .hot, .content .floor2 .tab_content .tab_content_right .hot, .content .floor3 .tab_content .tab_content_right .hot, .content .floor4 .tab_content .tab_content_right .hot, .content .floor5 .tab_content .tab_content_right .hot, .content .floor6 .tab_content .tab_content_right .hot { width: 418px; float: left; overflow: hidden; }
+
+.content .floor1 .tab_content .tab_content_right .hot li, .content .floor0 .tab_content .tab_content_right .hot li, .content .floor2 .tab_content .tab_content_right .hot li, .content .floor3 .tab_content .tab_content_right .hot li, .content .floor4 .tab_content .tab_content_right .hot li, .content .floor5 .tab_content .tab_content_right .hot li, .content .floor6 .tab_content .tab_content_right .hot li { width: 209px; height: 241px; float: left; }
+
+.content .floor1 .tab_content .tab_content_right .hot li a, .content .floor0 .tab_content .tab_content_right .hot li a, .content .floor2 .tab_content .tab_content_right .hot li a, .content .floor3 .tab_content .tab_content_right .hot li a, .content .floor4 .tab_content .tab_content_right .hot li a, .content .floor5 .tab_content .tab_content_right .hot li a, .content .floor6 .tab_content .tab_content_right .hot li a { display: block; border-right: 1px solid #ededed; border-bottom: 1px solid #ededed; overflow: hidden; }
+
+.content .floor1 .tab_content .tab_content_right .h482, .content .floor0 .tab_content .tab_content_right .h482, .content .floor2 .tab_content .tab_content_right .h482, .content .floor3 .tab_content .tab_content_right .h482, .content .floor4 .tab_content .tab_content_right .h482, .content .floor5 .tab_content .tab_content_right .h482, .content .floor6 .tab_content .tab_content_right .h482 { width: 248px; height: 482px; float: left; }
+
+.content .floor1 .tab_content .tab_content_right .w_227, .content .floor0 .tab_content .tab_content_right .w_227, .content .floor2 .tab_content .tab_content_right .w_227, .content .floor3 .tab_content .tab_content_right .w_227, .content .floor4 .tab_content .tab_content_right .w_227, .content .floor5 .tab_content .tab_content_right .w_227, .content .floor6 .tab_content .tab_content_right .w_227 { width: 227px; }
+
+.content .floor1 .tab_content .tab_content_right .w_227 li, .content .floor0 .tab_content .tab_content_right .w_227 li, .content .floor2 .tab_content .tab_content_right .w_227 li, .content .floor3 .tab_content .tab_content_right .w_227 li, .content .floor4 .tab_content .tab_content_right .w_227 li, .content .floor5 .tab_content .tab_content_right .w_227 li, .content .floor6 .tab_content .tab_content_right .w_227 li { width: 227px; }
+
+.content .floor1 .tab_content .tab_content_right:nth-child(1), .content .floor0 .tab_content .tab_content_right:nth-child(1), .content .floor2 .tab_content .tab_content_right:nth-child(1), .content .floor3 .tab_content .tab_content_right:nth-child(1), .content .floor4 .tab_content .tab_content_right:nth-child(1), .content .floor5 .tab_content .tab_content_right:nth-child(1), .content .floor6 .tab_content .tab_content_right:nth-child(1) { display: block; opacity: 1; }

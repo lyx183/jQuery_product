@@ -1,0 +1,93 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0; }
+
+body { font: 12px "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB"; background: #fff; color: #444; }
+
+a { text-decoration: none; }
+
+em { font-style: normal; }
+
+li { list-style: none; }
+
+img { border: 0; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.mycartBox { width: 1190px; height: auto; margin: 0 auto; margin-top: 55px; }
+
+.mycart { width: 100%; margin: 0 auto 35px auto; font-size: 14px; clear: both; }
+
+.cart_tit { width: 100%; height: 32px; line-height: 32px; font-size: 18px; color: #fff; text-indent: 35px; background: #97ccf4; }
+
+.cart_list { width: 100%; height: 28px; padding-top: 20px; color: #565656; }
+
+.cart_list li { float: left; }
+
+.cart_list li:first-child { width: 380px; margin-left: 157px; }
+
+.cart_list li:nth-child(2) { width: 215px; }
+
+.cart_list li:nth-child(3) { width: 156px; text-indent: 38px; }
+
+.cart_list li:nth-child(4) { width: 116px; color: #000; }
+
+.cart_list li:nth-child(5) { text-indent: 45px; }
+
+.car_storewrap .car_list_th { width: 100%; height: 28px; padding-top: 20px; color: #565656; }
+
+.car_storewrap .car_list_th input { width: 13px; height: 13px; margin: 4px 0 0 35px; -webkit-appearance: none; background: url(../images/check.png) no-repeat; background-position: 0 0; }
+
+.car_storewrap .car_list_th label { margin-left: 16px; }
+
+.car_storewrap .car_list_td { width: 100%; height: auto; padding-top: 20px; color: #242323; }
+
+.car_storewrap .car_list_td li { height: 76px; padding-top: 20px; }
+
+.car_storewrap .car_list_td li div { float: left; }
+
+.car_storewrap .car_list_td li .li_chk { width: 62px; height: 40px; }
+
+.car_storewrap .car_list_td li .li_chk .chk { width: 13px; height: 13px; margin: 22px 0 0 35px; -webkit-appearance: none; background: url(../images/check.png) no-repeat; background-position: 0 0; }
+
+.car_storewrap .car_list_td li .li_pic { width: 95px; }
+
+.car_storewrap .car_list_td li .li_pic img { width: 62px; height: 62px; border: 1px solid #e4e4e4; }
+
+.car_storewrap .car_list_td li .li_tit { width: 380px; height: 64px; line-height: 32px; }
+
+.car_storewrap .car_list_td li .li_price { width: 215px; height: 64px; line-height: 64px; font-size: 16px; }
+
+.car_storewrap .car_list_td li .li_num { margin-top: 16px; width: 156px; }
+
+.car_storewrap .car_list_td li .li_num div { width: 106px; height: 35px; line-height: 35px; border: 1px solid #e4e4e4; text-align: center; }
+
+.car_storewrap .car_list_td li .li_num div a { width: 33px; height: 36px; display: block; float: left; background: #eee; }
+
+.car_storewrap .car_list_td li .li_num div input { width: 38px; height: 34px; display: block; float: left; border-left: 1px solid #e4e4e4; border-right: 1px solid #e4e4e4; border-top: none; text-align: center; border-bottom: none; }
+
+.car_storewrap .car_list_td li .li_priceSum { width: 116px; height: 64px; line-height: 64px; font-size: 16px; color: #000; text-indent: 18px; }
+
+.car_storewrap .car_list_td li .li_07 { text-indent: 45px; }
+
+.car_storewrap .car_list_td li .li_07 a { display: block; color: #000; }
+
+.car_storewrap .car_list_td li .li_07 .del { margin-top: 4px; margin-bottom: 23px; }
+
+.car_settle { width: 100%; margin-top: 20px; overflow: hidden; }
+
+.car_settle ul { float: left; width: 942px; height: 50px; border: 1px solid #e4e4e4; }
+
+.car_settle ul .allprice { width: 410px; margin-top: 6px; }
+
+.car_settle ul .allprice h3 { float: right; font-size: 18px; font-weight: normal; }
+
+.car_settle ul .allprice h3 span { color: #ff5e24; font-size: 24px; margin-left: 5px; }
+
+.car_settle ul li { float: left; margin: 15px 25px 0 0; }
+
+.car_settle ul li a { color: #000; }
+
+.car_settle ul li font { color: #fa7117; margin: 0 4px; }
+
+.car_settle ul li input { width: 13px; height: 13px; margin: 4px 0 0 35px; -webkit-appearance: none; background: url(../images/check.png) no-repeat; background-position: 0 0; }
+
+.car_settle .pay { float: right; padding: 10px 52px; font-size: 24px; background-color: #fa7117; border: 0; color: #fff; border-radius: 4px; font-weight: 400; }

@@ -1,0 +1,103 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0; }
+
+body { font: 12px "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB"; background: #fff; color: #444; }
+
+a { text-decoration: none; }
+
+em { font-style: normal; }
+
+li { list-style: none; }
+
+img { border: 0; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.detail { width: 100%; background: #f6f6f6; margin-bottom: 20px; border-bottom: 2px solid #f6f6f6; overflow: hidden; }
+
+.detail .detail_nav { height: 46px; font-size: 14px; }
+
+.detail .detail_nav ol { background: 0; width: 1190px; margin: 0 auto; padding: 8px 0; line-height: 32px; }
+
+.detail .detail_nav ol li { display: inline-block; }
+
+.detail .detail_nav ol li::before { padding: 0 5px; color: #8d8d8d; content: ">\00a0"; }
+
+.detail .detail_nav ol li a { color: #8d8d8d; }
+
+.detail .contentWarp { width: 1190px; margin: 0 auto; }
+
+.detail .contentWarp .content_main { background: #fff; float: left; margin: 0 auto; width: 1190px; padding: 18px; min-height: 500px; }
+
+.detail .contentWarp .content_main .detail_zoom { width: 343px; float: left; position: relative; }
+
+.detail .contentWarp .content_main .detail_zoom .middle { width: 343px; height: 343px; }
+
+.detail .contentWarp .content_main .detail_zoom .middle .filter { display: none; position: absolute; width: 200px; height: 200px; border: 1px solid #e4e4e4; background: #fff; opacity: .5; }
+
+.detail .contentWarp .content_main .detail_zoom .middle img { width: 100%; height: 100%; }
+
+.detail .contentWarp .content_main .detail_zoom .small { clear: both; margin-top: 11px; width: 343px; height: 56px; }
+
+.detail .contentWarp .content_main .detail_zoom .small img { width: 40px; height: 40px; border: 1px solid #c6c6c6; padding: 2px; margin: 2px 2px; }
+
+.detail .contentWarp .content_main .detail_zoom .small img:hover { border: 2px solid #f60; padding: 1px; }
+
+.detail .contentWarp .content_main .detail_zoom .large { z-index: 99; display: none; overflow: hidden; width: 400px; height: 400px; position: absolute; top: 0px; left: 353px; border: 1px solid #e4e4e4; }
+
+.detail .contentWarp .content_main .detail_zoom .large img { position: relative; left: 0px; top: 0px; }
+
+.detail .contentWarp .content_main .detail_zoom .short_share { padding: 24px 40px 0 0; overflow: hidden; font-size: 13px; }
+
+.detail .contentWarp .content_main .detail_zoom .short_share .left { float: left; }
+
+.detail .contentWarp .content_main .detail_zoom .short_share .collect_text { float: right; position: relative; text-indent: 12px; }
+
+.detail .contentWarp .content_main .detail_zoom .short_share .collect_text i { width: 17px; height: 15px; background: url(../images/detail_icon.png) no-repeat; background-position: -15px -13px; position: absolute; top: 2px; left: -10px; }
+
+.detail .contentWarp .content_main .detail_info { width: 566px; margin-left: 30px; float: left; }
+
+.detail .contentWarp .content_main .detail_info .detail_info_tit { width: 566px; position: relative; display: block; }
+
+.detail .contentWarp .content_main .detail_info .detail_info_tit h1 { font-size: 18px; line-height: 26px; width: 566px; height: auto; margin: 0; margin-bottom: 4px; font-weight: 700; }
+
+.detail .contentWarp .content_main .detail_info .detail_info_tit .info_advert { font-size: 13px; color: #f00; line-height: 20px; }
+
+.detail .contentWarp .content_main .detail_info .sales_info { width: 566px; background: #fffaf5; margin-top: 5px; padding: 0 10px 0 10px; color: #2d2a2a; font-size: 12px; overflow: hidden; }
+
+.detail .contentWarp .content_main .detail_info .sales_info .sales_price span { letter-spacing: 4px; }
+
+.detail .contentWarp .content_main .detail_info .sales_info .sales_price i { font-style: normal; font-size: 13px; color: #f00; }
+
+.detail .contentWarp .content_main .detail_info .sales_info .sales_price strong { font-size: 24px; color: #f00; font-weight: 700; margin: 0 8px 0 0; }
+
+.detail .contentWarp .content_main .detail_info .sales_info .info_main { display: table; margin-top: 10px; overflow: hidden; }
+
+.detail .contentWarp .content_main .detail_info .sales_info .info_main .sales_info_tit { display: table-cell; width: 64px; }
+
+.detail .contentWarp .content_main .detail_info .sales_info .info_main ul { display: table-cell; width: 483px; }
+
+.detail .contentWarp .content_main .detail_info .sales_info .info_main ul li { margin: 5px 0; line-height: 23px; }
+
+.detail .contentWarp .content_main .detail_info .sales_info .info_main ul li i { display: inline-block; font-style: normal; background: #e8595c; line-height: 18px; width: 66px; height: 18px; color: #fff; text-align: center; margin-right: 8px; }
+
+.detail .contentWarp .content_main .detail_info .detail_add { width: 566px; display: table; margin-top: 16px; }
+
+.detail .contentWarp .content_main .detail_info .detail_add li { margin-bottom: 10px; }
+
+.detail .contentWarp .content_main .detail_info .detail_add li .add_item_tit { display: table-cell; width: 82px; text-align: left; letter-spacing: 12px; vertical-align: top; text-indent: .8em; white-space: nowrap; }
+
+.detail .contentWarp .content_main .detail_info .detail_add li .add_item_main { display: table-cell; position: relative; }
+
+.detail .contentWarp .content_main .detail_info .detail_add li ul li { padding: 0 35px 0 0; float: left; font-size: inherit; }
+
+.detail .contentWarp .content_main .detail_info .ad_num { float: left; font-size: 14px; }
+
+.detail .contentWarp .content_main .detail_info .ad_num .num { width: 106px; height: 33px; line-height: 33px; border: 1px solid #e4e4e4; text-align: center; }
+
+.detail .contentWarp .content_main .detail_info .ad_num .num a { width: 33px; height: 33px; display: block; float: left; background: #eee; cursor: pointer; }
+
+.detail .contentWarp .content_main .detail_info .ad_num .num input { text-align: center; display: block; width: 38px; height: 33px; float: left; border: 0; border-left: 1px solid #e4e4e4; border-right: 1px solid #e4e4e4; }
+
+.detail .contentWarp .content_main .detail_info .ad_car { float: left; margin-left: 20px; }
+
+.detail .contentWarp .content_main .detail_info .ad_car button { background-color: #fff; border-color: #c9285d; padding: 7px 40px; line-height: 18px; color: #c9285d; font-size: 17px; border-radius: 6px; cursor: pointer; }
